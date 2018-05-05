@@ -8,7 +8,7 @@ void show(){
     printf("(");
     //注意此处下标从0开始
     for (i=0; i<max; i++) {
-        printf("%d",queen[i]+1);
+        printf("%d",queen[i]+1);   //数组queen[i]从0开始，但棋盘列数从1开始
     }
     printf(")\n");
     //每次输出一种解时，它的解的数量就会增加1
